@@ -10,10 +10,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 6rem 0;
 }
 
 .separator {
-  background-color: #C5C9C5;
+  background-color: #c5c9c5;
   width: 60%;
   height: 1px;
 }
@@ -36,24 +37,24 @@ body {
 }
 
 .name {
-  color: #8BA4B0;
+  color: #8ba4b0;
   font-size: 1.2rem;
   font-weight: 800;
 }
 
 .hero-title h1 {
-  color: #C5C9C5;
+  color: #c5c9c5;
   font-size: 3rem;
 }
 
 .hero-title p {
-  color: #C5C9C5;
+  color: #c5c9c5;
   text-align: center;
   width: 65%;
 }
 
 .contact-btn {
-  background-color: #8BA4B0;
+  background-color: #8ba4b0;
   color: #181616;
   border: none;
   padding: 1rem 1.5rem;
@@ -63,7 +64,7 @@ body {
 }
 
 .sub-title {
-  color: #C5C9C5;
+  color: #c5c9c5;
   font-size: 2rem;
 }
 
@@ -75,11 +76,12 @@ body {
 }
 
 .sub-sub-title {
-  color: #C5C9C5;
+  color: #c5c9c5;
   margin: 2rem 0 1rem 0;
 }
 
-.languages, .frameworks {
+.languages,
+.frameworks {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -89,7 +91,7 @@ body {
 .tech-card {
   width: 8rem;
   height: 8rem;
-  background-color: #C5C9C5;
+  background-color: #c5c9c5;
   margin: 0.5rem;
   border-radius: 0.5rem;
   display: flex;
@@ -99,7 +101,8 @@ body {
   transition: transform 0.3s;
 }
 
-.tech-card:hover {
+.tech-card:hover,
+.contact-button:hover {
   transform: scale(1.1);
 }
 
@@ -111,14 +114,70 @@ body {
   font-size: 0.95rem;
 }
 
-.blue-card:hover { background-color: #8ba4b0 }
-.yellow-card:hover { background-color: #c4b28a }
-.green-card:hover { background-color: #8a9a7b }
-.orange-card:hover { background-color: #FF9E64 }
-.purple-card:hover { background-color: #957FB8 }
-.black-card:hover { background-color: #a6a69c }
+.blue-card:hover {
+  background-color: #8ba4b0;
+}
+.yellow-card:hover {
+  background-color: #c4b28a;
+}
+.green-card:hover {
+  background-color: #8a9a7b;
+}
+.orange-card:hover {
+  background-color: #ff9e64;
+}
+.purple-card:hover {
+  background-color: #957fb8;
+}
+.black-card:hover {
+  background-color: #a6a69c;
+}
 
 .contact {
   margin: 5rem 0;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2.5rem;
 }
 
+.contact strong {
+  color: #8ba4b0;
+}
+.contact p {
+  color: #c5c9c5;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  background-color: #c5c9c5;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.contact-button img {
+  width: 2rem;
+}
+
+.contact a {
+  text-decoration: underline;
+  color: #c5c9c5;
+}
+
+.buttons a {
+  color: black;
+  text-decoration: none;
+}
