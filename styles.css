@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: clamp(360px, 30vw, 740px);
   height: 60vh;
 }
 
@@ -32,25 +32,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35%;
   gap: 1rem;
+  padding: min(2rem, 8%);
 }
 
 .name {
   color: #8ba4b0;
-  font-size: 1.2rem;
+  font-size: clamp(0.85rem, 0.8vw, 1.9rem);
   font-weight: 800;
 }
 
 .hero-title h1 {
   color: #c5c9c5;
-  font-size: 3rem;
+  font-size: clamp(2rem, 1.25vw + 1rem, 3rem);
 }
 
 .hero-title p {
   color: #c5c9c5;
   text-align: center;
-  width: 65%;
+  font-size: clamp(0.8rem, 0.75vw, 1.8rem);
 }
 
 .contact-btn {
