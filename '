@@ -24,9 +24,9 @@
       <div class="hero-title">
         <h1>FullStack Developer</h1>
         <p>
-          Hi!, I'm <span class="name">Luis Meza</span> a FullStack developer
-          with 3 years of experience building web apps. Currently open to remote
-          opportunites.
+          Hi!, I'm <span class="name">Luis Meza</span> a FullStack developer who
+          loves Django and HTMX, with 3 years of experience building web apps.
+          Currently open to remote opportunites.
         </p>
         <a class="contact-btn" href="#contact">Contact me</a>
       </div>
@@ -48,68 +48,60 @@
           <h3>Django</h3>
         </div>
         <div class="tech-card orange-card">
-          <img
-            src="assets/logos/django-rest-framework-logo.png"
-            width="64px"
-            alt=""
-          />
-          <h3>DRF</h3>
+          <img src="assets/logos/html-5-logo.svg" width="64px" alt="" />
+          <h3>Django Rest Framework</h3>
         </div>
         <div class="tech-card purple-card">
-          <img src="assets/logos/database-logo.svg" width="64px" alt="" />
+          <img src="assets/logos/css-3-logo.svg" width="64px" alt="" />
           <h3>SQL</h3>
         </div>
         <div class="tech-card blue-card">
-          <img src="assets/logos/c-sharp-logo.svg" width="64px" alt="" />
+          <img src="assets/logos/mysql-logo.svg" width="64px" alt="" />
           <h3>C#</h3>
         </div>
         <div class="tech-card blue-card">
-          <img src="assets/logos/net-logo.svg" width="64px" alt="" />
+          <img src="assets/logos/mysql-logo.svg" width="64px" alt="" />
           <h3>ASP .NET</h3>
         </div>
       </div>
 
-      <h3 class="sub-sub-title">Frontend</h3>
-      <div class="languages">
+      <h3 class="sub-sub-title">Frameworks, libraries and others...</h3>
+      <div class="frameworks">
         <div class="tech-card green-card">
-          <img src="assets/logos/htmx-logo.svg" width="64px" alt="" />
-          <h3>HTMX</h3>
+          <img src="assets/logos/django-logo.svg" width="64px" alt="" />
+          <h3>Django</h3>
         </div>
         <div class="tech-card blue-card">
-          <img src="assets/logos/alpine-js-logo.svg" width="64px" alt="" />
-          <h3>Alpine.js</h3>
-        </div>
-        <div class="tech-card orange-card">
           <img src="assets/logos/react-logo.svg" width="64px" alt="" />
           <h3>React</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/tailwind-logo.svg" width="64px" alt="" />
-          <h3>Tailwind</h3>
-        </div>
-        <div class="tech-card orange-card">
-          <img src="assets/logos/chart-js-logo.svg" width="64px" alt="" />
-          <h3>Chart.js</h3>
-        </div>
-      </div>
-
-      <h3 class="sub-sub-title">Others...</h3>
-      <div class="languages">
-        <div class="tech-card black-card">
-          <img src="assets/logos/linux-logo.svg" width="64px" alt="" />
-          <h3>Linux</h3>
         </div>
         <div class="tech-card orange-card">
           <img src="assets/logos/git-logo.svg" width="64px" alt="" />
           <h3>Git</h3>
         </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/arduino-logo.svg" width="64px" alt="" />
-          <h3>Arduino</h3>
+        <div class="tech-card black-card">
+          <img src="assets/logos/linux-logo.svg" width="64px" alt="" />
+          <h3>Linux</h3>
         </div>
         <div class="tech-card blue-card">
-          <img src="assets/logos/flutter-logo.svg" width="64px" alt="" />
-          <h3>Flutter</h3>
+          <img src="assets/logos/docker-logo.svg" width="64px" alt="" />
+          <h3>Docker</h3>
+        </div>
+        <div class="tech-card blue-card">
+          <img src="assets/logos/tailwind-logo.svg" alt="" />
+          <h3>Tailwind</h3>
+        </div>
+        <div class="tech-card blue-card">
+          <img src="assets/logos/htmx-logo.svg" alt="" />
+          <h3>HTMX</h3>
+        </div>
+        <div class="tech-card orange-card">
+          <img src="assets/logos/chart-js-logo.svg" alt="" />
+          <h3>Chart.js</h3>
+        </div>
+        <div class="tech-card purple-card">
+          <img src="assets/logos/more-icon.svg" alt="" />
+          <h3>And more...</h3>
         </div>
       </div>
     </section>

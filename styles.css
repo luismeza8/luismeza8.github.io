@@ -38,7 +38,7 @@ body {
 
 .name {
   color: #8ba4b0;
-  font-size: clamp(0.85rem, 0.8vw, 1.9rem);
+  font-size: clamp(0.9rem, 0.5vw + 0.55rem, 1.5rem);
   font-weight: 800;
 }
 
@@ -50,7 +50,7 @@ body {
 .hero-title p {
   color: #c5c9c5;
   text-align: center;
-  font-size: clamp(0.8rem, 0.25vw + 0.5rem, 1.8rem);
+  font-size: clamp(0.8rem, 0.5vw + 0.45rem, 1.4rem);
   line-height: 150%;
 }
 
@@ -85,21 +85,22 @@ body {
 .frameworks {
   display: flex;
   justify-content: center;
+  gap: min(2.5vw, 1rem);
   flex-wrap: wrap;
   width: clamp(360px, 70vw, 1600px);
 }
 
 .tech-card {
-  width: 8rem;
-  height: 8rem;
   background-color: #c5c9c5;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
+  padding: min(2vw, 2rem);
+  border-radius: 1rem;
   display: flex;
+  gap: 0.5rem;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   transition: transform 0.3s;
+  text-align: center;
 }
 
 .tech-card:hover,
@@ -108,11 +109,11 @@ body {
 }
 
 .tech-card img {
-  width: 64px;
+  height: clamp(48px, 4vw, 64px);
 }
 
 .tech-card h3 {
-  font-size: 0.95rem;
+  font-size: clamp(0.7rem, 0.5vw + 0.5rem, 0.9rem);
 }
 
 .blue-card:hover {
