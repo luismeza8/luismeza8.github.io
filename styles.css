@@ -55,4 +55,80 @@ body {
 
 .content {
   width: 60%;
+  padding: 12rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.about {
+  color: white;
+}
+
+.about h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.about p {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.experience {
+  color: #98bb6c;
+}
+
+.experience-card {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.experience > h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.experience-card h4 {
+  font-size: 1.5rem;
+}
+
+.experience-card > p {
+  white-space: nowrap;
+  font-size: 1.25rem;
+  width: 11rem;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.ec-right > p {
+  font-size: 1rem;
+}
+
+.ec-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.badges {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.badge {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #98bb6c;
+  background-color: #181616;
+  box-shadow: 1px 1px 4px 2px rgba(152, 187, 108, 0.25);
 }

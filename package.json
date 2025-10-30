@@ -1,0 +1,24 @@
+{
+  "name": "luismeza8.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismeza8/luismeza8.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luismeza8/luismeza8.github.io/issues"
+  },
+  "homepage": "https://github.com/luismeza8/luismeza8.github.io#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}
