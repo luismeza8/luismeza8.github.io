@@ -1,152 +1,59 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Luis Meza</title>
-    <script
-      src="https://cdn.counter.dev/script.js"
-      data-id="918b1b37-5e49-48ee-b54f-332cf3bf1625"
-      data-utcoffset="-7"
-    ></script>
-  </head>
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
 
-  <body>
-    <div class="separator"></div>
-    <section class="hero">
-      <div class="hero-title">
-        <h1>FullStack Developer</h1>
-        <p>
-          Hi!, I'm <span class="name">Luis Meza</span> a FullStack developer who
-          loves Django and HTMX, with 3 years of experience building web apps.
-          Currently open to remote opportunites.
-        </p>
-        <a class="contact-btn" href="#contact">Contact me</a>
-      </div>
-    </section>
+body {
+  background-color: #181616;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+}
 
-    <div class="separator"></div>
+.title {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
 
-    <section class="technologies">
-      <h2 class="sub-title">Technologies that I use</h2>
+.titles {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
 
-      <h3 class="sub-sub-title">Backend</h3>
-      <div class="languages">
-        <div class="tech-card blue-card">
-          <img src="assets/logos/python-logo.svg" width="64px" alt="" />
-          <h3>Python</h3>
-        </div>
-        <div class="tech-card yellow-card">
-          <img src="assets/logos/django-logo.svg" width="64px" alt="" />
-          <h3>Django</h3>
-        </div>
-        <div class="tech-card orange-card">
-          <img src="assets/logos/html-5-logo.svg" width="64px" alt="" />
-          <h3>Django Rest Framework</h3>
-        </div>
-        <div class="tech-card purple-card">
-          <img src="assets/logos/css-3-logo.svg" width="64px" alt="" />
-          <h3>SQL</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/mysql-logo.svg" width="64px" alt="" />
-          <h3>C#</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/mysql-logo.svg" width="64px" alt="" />
-          <h3>ASP .NET</h3>
-        </div>
-      </div>
+.titles h2 {
+  font-size: 4rem;
+  text-align: left;
+}
+.titles h1 {
+  font-size: 1.5rem;
+  text-align: left;
+}
 
-      <h3 class="sub-sub-title">Frameworks, libraries and others...</h3>
-      <div class="frameworks">
-        <div class="tech-card green-card">
-          <img src="assets/logos/django-logo.svg" width="64px" alt="" />
-          <h3>Django</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/react-logo.svg" width="64px" alt="" />
-          <h3>React</h3>
-        </div>
-        <div class="tech-card orange-card">
-          <img src="assets/logos/git-logo.svg" width="64px" alt="" />
-          <h3>Git</h3>
-        </div>
-        <div class="tech-card black-card">
-          <img src="assets/logos/linux-logo.svg" width="64px" alt="" />
-          <h3>Linux</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/docker-logo.svg" width="64px" alt="" />
-          <h3>Docker</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/tailwind-logo.svg" alt="" />
-          <h3>Tailwind</h3>
-        </div>
-        <div class="tech-card blue-card">
-          <img src="assets/logos/htmx-logo.svg" alt="" />
-          <h3>HTMX</h3>
-        </div>
-        <div class="tech-card orange-card">
-          <img src="assets/logos/chart-js-logo.svg" alt="" />
-          <h3>Chart.js</h3>
-        </div>
-        <div class="tech-card purple-card">
-          <img src="assets/logos/more-icon.svg" alt="" />
-          <h3>And more...</h3>
-        </div>
-      </div>
-    </section>
+.sections {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 
-    <div class="separator"></div>
+.sections p {
+  font-size: 1.5rem;
+  color: white;
+}
 
-    <section class="contact" id="contact">
-      <h2 class="sub-title">Contact me</h2>
-      <div
-        style="
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 1rem;
-        "
-      >
-        <p><strong>Email: </strong>angel841bv@gmail.com</p>
-        <p>
-          <strong>Twitter: </strong>
-          <a href="https://x.com/luis_mz8">luis_mz8</a>
-        </p>
-        <p>
-          <strong>Instagram: </strong>
-          <a href="https://www.instagram.com/luis.mz8/">luis.mz8</a>
-        </p>
-      </div>
-      <div class="buttons">
-        <a
-          href="https://github.com/luismeza8/"
-          target="_blank"
-          class="contact-button"
-        >
-          <img src="assets/logos/github-logo.svg" />
-          GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/luis-meza-dev/"
-          target="_blank"
-          class="contact-button"
-        >
-          <img src="assets/logos/linkedin-logo.svg" />
-          Linkedin
-        </a>
-      </div>
-    </section>
-    <div class="separator"></div>
-  </body>
-</html>
+.content {
+  width: 60%;
+  background-color: blue;
+}
