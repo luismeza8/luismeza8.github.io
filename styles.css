@@ -6,16 +6,34 @@
 }
 
 body {
-  background-color: #181616;
+  background: #181616;
+  background: radial-gradient(
+    circle,
+    rgba(24, 22, 22, 1) 0%,
+    rgba(13, 12, 12, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   height: 100vh;
-  max-height: 100vh;
   width: 100%;
   display: flex;
+  overflow-y: scroll;
 }
 
 .title {
   height: 100%;
-  width: 40%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.fake-title {
+  height: 100%;
+  width: 35%;
   display: flex;
   flex-direction: column;
 }
@@ -54,13 +72,12 @@ body {
 }
 
 .content {
-  width: 60%;
+  width: 65%;
   padding: 12rem 10rem;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
-  max-height: 100vh;
-  overflow-y: scroll;
+  gap: 18rem;
+  margin-bottom: 18rem;
 }
 
 .about {
@@ -73,6 +90,8 @@ body {
 .about h3 {
   font-size: 4rem;
   font-weight: 800;
+  width: fit-content;
+  height: fit-content;
 }
 
 .about p {
@@ -102,6 +121,8 @@ body {
 .experience > h3 {
   font-size: 4rem;
   font-weight: 800;
+  width: fit-content;
+  height: fit-content;
 }
 
 .experience-card h4 {
@@ -111,9 +132,10 @@ body {
 .experience-card > p {
   white-space: nowrap;
   font-size: 1.25rem;
-  width: 11rem;
+  width: fit-content;
   flex-shrink: 0;
   text-align: right;
+  height: fit-content;
 }
 
 .ec-right,
@@ -150,12 +172,14 @@ body {
 .projects > h3 {
   font-size: 4rem;
   font-weight: 800;
+  width: fit-content;
+  height: fit-content;
 }
 
 .project_card_container {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
 }
 .project_card {
   display: flex;
@@ -189,13 +213,12 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.25;
+  gap: 1.25rem;
 }
 
 .contact > h3 {
   font-size: 4rem;
   font-weight: 800;
-  margin-bottom: 1rem;
 }
 
 .contact-card {
@@ -206,12 +229,11 @@ body {
 
 .contact-card h4 {
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .contact-card-circle {
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   background-color: #7e9cd8;
   border-radius: 100%;
 }
@@ -220,12 +242,36 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
 }
 
 .down-cards {
-  padding: 2rem;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.effect3d {
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  backdrop-filter: blur(2px);
+}
+
+.effect3d:hover {
+  background: rgba(24, 22, 22, 0.5);
+  backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
