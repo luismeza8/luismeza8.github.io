@@ -11,24 +11,25 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;700&display=swap"
       rel="stylesheet"
     />
+    <script defer src="index.js"></script>
   </head>
   <body>
-    <div class="fake-title"></div>
+    <div id="fake-title" class="fake-title"></div>
     <section class="title">
       <div class="titles">
         <h2>Luis Meza</h2>
         <h1>Fullstack Web Developer</h1>
       </div>
-      <div class="sections">
-        <p>About me</p>
-        <p>Experience</p>
-        <p>Projects</p>
-        <p>Contact me</p>
+      <div id="sections" class="sections">
+        <p id="about-link" class="about-active">About me</p>
+        <p id="experience-link">Experience</p>
+        <p id="projects-link">Projects</p>
+        <p id="contact-link">Contact me</p>
       </div>
     </section>
 
-    <section class="content">
-      <div class="about">
+    <section id="content" class="content">
+      <div id="about" class="about">
         <h3 class="effect3d">About me</h3>
         <p class="effect3d">
           I’m a fullstack web developer with 5 years for experience coding.
@@ -43,7 +44,7 @@
         </p>
       </div>
 
-      <div class="experience">
+      <div id="experience" class="experience">
         <h3 class="effect3d">Work Experience</h3>
         <div class="experience-card-container">
           <div class="experience-card effect3d">
@@ -104,7 +105,7 @@
         </div>
       </div>
 
-      <div class="projects">
+      <div id="projects" class="projects">
         <h3 class="effect3d">Projects</h3>
         <div class="project_card_container">
           <div class="project_card effect3d">
@@ -178,7 +179,7 @@
         </div>
       </div>
 
-      <div class="contact">
+      <div id="contact" class="contact">
         <h3 class="effect3d">Contact me</h3>
         <div class="up-cards">
           <div class="contact-card effect3d">
@@ -192,7 +193,7 @@
           <div class="contact-card effect3d">
             <div class="contact-card-circle"></div>
             <div class="contact-card-text">
-              <h4>Github</h4>
+              <h4>Linkedin</h4>
               <p>@luismeza8</p>
             </div>
           </div>
@@ -200,7 +201,7 @@
           <div class="contact-card effect3d">
             <div class="contact-card-circle"></div>
             <div class="contact-card-text">
-              <h4>Github</h4>
+              <h4>Twitter</h4>
               <p>@luismeza8</p>
             </div>
           </div>
@@ -210,7 +211,7 @@
           <div class="contact-card effect3d">
             <div class="contact-card-circle"></div>
             <div class="contact-card-text">
-              <h4>Github</h4>
+              <h4>Email</h4>
               <p>@luismeza8</p>
             </div>
           </div>
@@ -218,11 +219,12 @@
           <div class="contact-card effect3d">
             <div class="contact-card-circle"></div>
             <div class="contact-card-text">
-              <h4>Github</h4>
+              <h4>CV</h4>
               <p>@luismeza8</p>
             </div>
           </div>
         </div>
+        <div class="fill"></div>
       </div>
     </section>
   </body>

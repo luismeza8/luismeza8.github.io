@@ -275,3 +275,36 @@ body {
   box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
 }
+
+.fill {
+  width: 100px;
+  height: 200px;
+}
+
+.about-active {
+  color: white !important;
+  transform: scale(1.2);
+  transition: all 0.3s;
+  font-weight: 800;
+}
+
+.experience-active {
+  color: #98bb6c !important;
+  transform: scale(1.2);
+  transition: all 0.3s;
+  font-weight: 800;
+}
+
+.projects-active {
+  color: #c34043 !important;
+  transform: scale(1.2);
+  transition: all 0.3s;
+  font-weight: 800;
+}
+
+.contact-active {
+  color: #7e9cd8 !important;
+  transform: scale(1.2);
+  transition: all 0.3s;
+  font-weight: 800;
+}
