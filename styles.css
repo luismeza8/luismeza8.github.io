@@ -66,9 +66,16 @@ body {
   gap: 2rem;
 }
 
-.sections p {
+.sections a {
   font-size: 1.5rem;
   color: white;
+  text-decoration: none;
+}
+
+.sections a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+  font-weight: 800;
 }
 
 .content {
@@ -145,6 +152,10 @@ body {
   gap: 0.8rem;
 }
 
+li {
+  margin: 1rem;
+}
+
 .badges {
   display: flex;
   gap: 0.8rem;
@@ -219,6 +230,8 @@ body {
 .contact > h3 {
   font-size: 4rem;
   font-weight: 800;
+  width: fit-content;
+  height: fit-content;
 }
 
 .contact-card {

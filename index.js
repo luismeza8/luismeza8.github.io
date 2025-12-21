@@ -1,5 +1,5 @@
 window.addEventListener("scroll", function () {
-  var top = window.scrollY;
+  var top = window.scrollY + 500;
   var bottom = top + window.innerHeight;
   var arr = [];
 
