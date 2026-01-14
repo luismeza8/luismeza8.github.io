@@ -12,7 +12,6 @@ window.addEventListener("scroll", function () {
     }
   });
 
-  console.log(arr);
   changeSectionsColor(arr[0]);
 });
 
@@ -31,7 +30,6 @@ function changeSectionsColor(div) {
 
   switch (div) {
     case sections:
-      console.log("asdf");
       aboutLink.classList.add("about-active");
       experienceLink.classList.remove("experience-active");
       projectsLink.classList.remove("projects-active");
@@ -42,7 +40,6 @@ function changeSectionsColor(div) {
       experienceLink.classList.remove("experience-active");
       projectsLink.classList.remove("projects-active");
       contactLink.classList.remove("contact-active");
-      console.log("fake");
       break;
     case about:
       aboutLink.classList.add("about-active");

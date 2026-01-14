@@ -11,241 +11,262 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script defer src="index.js"></script>
   </head>
-  <body>
-    <div id="fake-title" class="fake-title"></div>
-    <section class="title">
-      <div class="titles">
-        <h2>Luis Meza</h2>
-        <h1>Fullstack Developer</h1>
-      </div>
-      <div id="sections" class="sections">
-        <a href="#about" id="about-link" class="about-active">About me</a>
-        <a href="#experience" id="experience-link">Experience</a>
-        <a href="#projects" id="projects-link">Projects</a>
-        <a href="#contact" id="contact-link">Contact me</a>
-      </div>
-    </section>
+  <body class="bg-[#181616] text-white lg:flex">
+    <div
+      class="h-dvh flex flex-col justify-center items-center lg:w-1/3 lg:z-10 lg:sticky"
+    >
+      <h2 class="text-5xl">Luis Meza</h2>
+      <h1 class="opacity-80">Fullstack Developer</h1>
 
-    <section id="content" class="content">
-      <div id="about" class="about">
-        <h3 class="">About me</h3>
-        <p class="">
-          I’m a fullstack web developer with 5 years for experience coding.
-          Passionate about building all type of things with programming, my
-          current focus is web programming, I like coding things for the browser
-          and the server.
+      <div class="w-full h-1/3 mt-16 flex flex-col justify-around items-center">
+        <a href="#about" id="about-link" class="">About me</a>
+        <a href="#experience" id="experience-link" class="">Experience</a>
+        <a href="#projects" id="projects-link" class="">Projects</a>
+        <a href="#contact" id="contact-link" class="">Contact</a>
+      </div>
+    </div>
+
+    <section id="content" class="lg:w-2/3">
+      <div id="about" class="h-dvh px-8 flex flex-col justify-center">
+        <h3 class="text-5xl font-bold">About me</h3>
+        <p class="py-8">
+          I’m a fullstack web developer with 5 years for experience coding. I
+          have a Bachelor's Degree in Software Engineering
         </p>
-        <br />
-        <p class="">
+        <p>
           In my free time, I’m usually listening to music, running, reading or
           just spending time with my cats.
         </p>
       </div>
 
-      <div id="experience" class="experience">
-        <h3 class="">Work Experience</h3>
-        <div class="experience-card-container">
-          <div class="experience-card">
-            <p>2024 - 2025</p>
-            <div class="ec-right">
-              <h4>Fullstack Developer, BAE SYSTEMS</h4>
-              <ul>
-                <li>
-                  Develop a web platform to record the time of each process in
-                  the assembly of aircraft parts and generate reports, reducing
-                  administration time by 40%.
-                </li>
-                <li>
-                  Worked in a team developing and implementing a ticketing
-                  system fof the plant. This implementation reduced machine down
-                  time by 34%.
-                </li>
-              </ul>
-            </div>
+      <div id="experience" class="min-h-dvh px-8 flex flex-col justify-center">
+        <h3 class="text-5xl mb-8 font-bold">Work Experience</h3>
+        <div class="flex flex-col gap-8">
+          <div>
+            <h4 class="text-xl text-neutral-200 font-semibold">BAE SYSTEMS</h4>
+            <p class="text-lg text-neutral-400">
+              Fullstack Developer • 2024 - 2025
+            </p>
+            <ul class="text-sm text-neutral-300 p-2 flex flex-col gap-2">
+              <li>
+                - Develop a web platform to record the time of each process in
+                the assembly of aircraft parts and generate reports, reducing
+                administration time by 40%.
+              </li>
+              <li>
+                - Worked in a team developing and implementing a ticketing
+                system fof the plant. This implementation reduced machine down
+                time by 34%.
+              </li>
+            </ul>
           </div>
 
-          <div class="experience-card">
-            <p>2023 - 2024</p>
-            <div class="ec-right">
-              <h4>Fullstack Developer, Horus Space Lab</h4>
-              <ul>
-                <li>
-                  Engineered the onboard computer and telecommunication system
-                  for a satellite, winning eighth place amoung 120+ teams in the
-                  Ibero-American Can-Sat Competition 2023.
-                </li>
-                <li>
-                  Built a check in/check out system, which consistes of a
-                  dashboard, a QR scanner (a ESP32Cam and an LCD screen) with
-                  Wi-Fi, and an API that connects both, reducing meeting delays
-                  by 30%.
-                </li>
-              </ul>
+          <div>
+            <h4 class="text-xl text-neutral-200 font-semibold">
+              Horus Space Lab
+            </h4>
+            <p class="text-neutral-400">Fullstack Developer • 2023 - 2024</p>
+            <ul class="text-sm text-neutral-300 p-2 flex flex-col gap-2">
+              <li>
+                - Engineered the onboard computer and telecommunication system
+                for a satellite, winning eighth place amoung 120+ teams in the
+                Ibero-American Can-Sat Competition 2023.
+              </li>
+              <li>
+                - Built a check in/check out system, which consistes of a
+                dashboard, a QR scanner (a ESP32Cam and an LCD screen) with
+                Wi-Fi, and an API that connects both, reducing meeting delays by
+                30%.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xl text-neutral-200 font-semibold">MIGALA</h4>
+            <p class="text-lg text-neutral-400">
+              Mobile Developer • 2021 - 2023
+            </p>
+            <ul class="text-sm text-neutral-300 p-2 flex flex-col gap-2">
+              <li>
+                - Collaborated with a remote team to develop a cross-platform
+                mobile app, enabling internal voting for cooperative
+                organizations, and adopted by a local non-profit.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full h-[30dvh]"></div>
+
+      <div id="projects" class="min-h-dvh flex flex-col justify-center">
+        <h3 class="text-5xl font-bold mb-8 px-8">Projects</h3>
+
+        <div class="flex flex-col gap-12">
+          <div class="flex flex-col">
+            <h4 class="text-xl px-8 font-semibold mb-2">
+              Assembly time platform
+            </h4>
+            <img
+              src="assets/images/assembly_time_platform.jpeg"
+              alt="realtime_dashboard"
+              class="pb-4 px-8"
+            />
+            <p class="text-neutral-300 text-sm text-center px-8 mb-3">
+              I made this platform while on BAE SYSTEMS, this is the platform
+              the saved the company up to 40% in administration time.
+            </p>
+            <div
+              class="text-xs text-neutral-200 flex max-w-full overflow-x-scroll gap-3 p-2 px-8"
+            >
+              <div class="px-3 py-2 border-white border rounded-3xl">
+                Django
+              </div>
+              <div class="px-3 py-2 border-white border rounded-3xl">HTMX</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">
+                AlpineJS
+              </div>
+              <div class="px-3 py-2 border-white border rounded-3xl">HTML</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">CSS</div>
+              <div
+                class="px-3 py-2 border-white border rounded-3xl text-nowrap"
+              >
+                SQL Server
               </div>
             </div>
           </div>
 
-          <div class="experience-card">
-            <p>2021 - 2023</p>
-            <div class="ec-right">
-              <h4>Mobile Developer, MIGALA</h4>
-              <ul>
-                <li>
-                  Collaborated with a remote team to develop a cross-platform
-                  mobile app, enabling internal voting for cooperative
-                  organizations, and adopted by a local non-profit.
-                </li>
-              </ul>
+          <div class="flex flex-col">
+            <h4 class="text-xl px-8 font-semibold mb-2">Real time dashboard</h4>
+            <img
+              src="assets/images/realtime_dashboard.png"
+              alt="realtime_dashboard"
+              class="pb-4 px-8"
+            />
+            <p class="text-neutral-300 text-sm text-center px-8 mb-3">
+              Dashboard that shows all the information received from a
+              satellite.
+            </p>
+            <div
+              class="text-xs text-neutral-200 flex max-w-full overflow-x-scroll gap-3 p-2 px-8"
+            >
+              <div class="px-3 py-2 border-white border rounded-3xl">
+                Django
+              </div>
+              <div class="px-3 py-2 border-white border rounded-3xl">DRF</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">HTML</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">
+                Tailwind
+              </div>
+              <div class="px-3 py-2 border-white border rounded-3xl">MySQL</div>
+            </div>
+          </div>
+
+          <div class="flex flex-col">
+            <h4 class="text-xl px-8 font-semibold mb-2">Assistance system</h4>
+            <img
+              src="assets/images/checking_home.png"
+              alt="checking system"
+              class="pb-4 px-8"
+            />
+            <p class="text-neutral-300 text-sm text-center px-8 mb-3">
+              Dashboard for visualization of all of the members in the
+              organization and their assistance analytics.
+            </p>
+            <div
+              class="text-xs text-neutral-200 flex max-w-full overflow-x-scroll gap-3 p-2 px-8"
+            >
+              <div class="px-3 py-2 border-white border rounded-3xl">
+                Django
+              </div>
+              <div class="px-3 py-2 border-white border rounded-3xl">DRF</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">HTMX</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">HTML</div>
+              <div class="px-3 py-2 border-white border rounded-3xl">
+                Tailwind
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div id="projects" class="projects">
-        <h3 class="">Projects</h3>
-        <div class="project_card_container">
-          <div class="project_card ">
-            <div class="image-container">
-              <img
-                src="assets/images/assembly_time_platform.jpeg"
-                class="effect3d"
-                alt="realtime_dashboard"
-                width="240px"
-              />
-            </div>
-            <div class="project-card-right">
-              <h4>Assembly time platform</h4>
-              <p>I made this platform while on BAE SYSTEMS, this is the platform the saved the company up to 40% in administration time.</p>
-              <div class="badges">
-                <button class="project-badge effect3d">Django</button>
-                <button class="project-badge effect3d">HTMX</button>
-                <button class="project-badge effect3d">AlpineJS</button>
-                <button class="project-badge effect3d">HTML / CSS</button>
-                <button class="project-badge effect3d">SQL Server</button>
-              </div>
+      <div class="w-full h-[30dvh]"></div>
+
+      <div id="contact" class="min-h-dvh px-6 flex flex-col justify-center">
+        <h3 class="text-5xl font-bold mb-12">Contact</h3>
+
+        <div class="flex flex-col gap-12 pl-2">
+          <div class="flex gap-6">
+            <img src="assets/logos/github-mark.svg" alt="github" width="50px" />
+            <div>
+              <a
+                class="font-bold text-xl"
+                href="https://github.com/luismeza8"
+                target="_blank"
+                >Github</a
+              >
+              <p class="opacity-70 text-sm">@luismeza8</p>
             </div>
           </div>
 
-          <div class="project_card ">
-            <div class="image-container">
-              <img
-                src="assets/images/realtime_dashboard.png"
-                class="effect3d"
-                alt="realtime_dashboard"
-                width="240px"
-              />
-            </div>
-            <div class="project-card-right">
-              <h4>Realtime dashboard</h4>
-              <p>Dashboard that shows all the information received from a satellite.</p>
-              <div class="badges">
-                <button class="project-badge effect3d">Django</button>
-                <button class="project-badge effect3d">HTML / CSS</button>
-                <button class="project-badge effect3d">MySQL</button>
-              </div>
+          <div class="flex gap-6">
+            <img src="assets/logos/linkedin.svg" alt="linkedin" width="50px" />
+            <div>
+              <a
+                class="font-bold text-xl"
+                href="https://www.linkedin.com/in/luis-meza-dev/"
+                target="_blank"
+                >Linkedin</a
+              >
+              <p class="opacity-70 text-sm">@luis-meza-dev</p>
             </div>
           </div>
 
-          <div class="project_card ">
-            <div class="image-container">
-              <img
-                src="assets/images/checking_home.png"
-                class="effect3d"
-                alt="realtime_dashboard"
-                width="240px"
-              />
+          <div class="flex gap-6">
+            <img src="assets/logos/twitter.svg" alt="twitter" width="50" />
+            <div>
+              <a
+                class="font-bold text-xl"
+                href="https://x.com/luis_mz8"
+                target="_blank"
+                >Twitter</a
+              >
+              <p class="opacity-70 text-sm">@luis_mz8</p>
             </div>
-            <div class="project-card-right">
-              <h4>Assistance system</h4>
-              <p>
-                Dashboard for visualization of all of the members in the organization and their assistance analytics.
-              </p>
-              <div class="badges">
-                <button class="project-badge effect3d">Django</button>
-                <button class="project-badge effect3d">DRF</button>
-                <button class="project-badge effect3d">HTMX</button>
-                <button class="project-badge effect3d">HTML / CSS</button>
-                <button class="project-badge effect3d">Tailwind</button>
-              </div>
+          </div>
+
+          <div class="flex gap-6">
+            <img src="assets/logos/email.svg" alt="email" width="50px" />
+            <div>
+              <a
+                class="font-bold text-xl"
+                href="mailto:angel841bv@gmail.com"
+                target="_blank"
+                >Email</a
+              >
+              <p class="opacity-70 text-sm">angel841bv@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="flex gap-6">
+            <img src="assets/logos/cv.svg" alt="email" width="50px" />
+            <div>
+              <a
+                class="font-bold text-xl"
+                href="assets/LuisMeza_CV5.pdf"
+                download="LuisMeza_CV"
+                >CV</a
+              >
+              <p class="opacity-70 text-sm">Download</p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div id="contact" class="contact">
-        <h3 class="">Contact me</h3>
-        <div class="up-cards">
-          <div class="contact-card">
-            <div class="contact-card-circle">
-              <img src="assets/logos/github-mark.svg" alt="github" width="50px">
-            </div>
-            <div class="contact-card-text">
-              <div class="arrow-container">
-                <a href="https://github.com/luismeza8" target="_blank">Github</a>
-                <i class="icono-arrow1-left-up"></i>
-              </div>
-              <p>@luismeza8</p>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-card-circle">
-              <img src="assets/logos/linkedin.svg" alt="linkedin" width="60">
-            </div>
-            <div class="contact-card-text">
-              <div class="arrow-container">
-                <a href="https://www.linkedin.com/in/luis-meza-dev/" target="_blank">Linkedin</a>
-                <i class="icono-arrow1-left-up"></i>
-              </div>
-                <p>@luis-meza-dev</p>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-card-circle">
-              <img src="assets/logos/twitter.svg" alt="twitter" width="40">
-            </div>
-            <div class="contact-card-text">
-              <div class="arrow-container">
-                <a href="https://x.com/luis_mz8" target="_blank">Twitter</a>
-                <i class="icono-arrow1-left-up"></i>
-              </div>
-              <p>@luis_mz8</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="down-cards">
-          <div class="contact-card">
-            <div class="contact-card-circle">
-              <img src="assets/logos/email.svg" alt="email" width="50px">
-            </div>
-            <div class="contact-card-text">
-              <div class="arrow-container">
-                <a href="mailto:angel841bv@gmail.com" target="_blank">Email</a>
-                <i class="icono-arrow1-left-up"></i>
-              </div>
-              <p>angel841bv@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-card-circle">
-              <img src="assets/logos/cv.svg" alt="email" width="40px">
-            </div>
-            <div class="contact-card-text">
-              <div class="arrow-container">
-                <a href="assets/LuisMeza_CV5.pdf" download="LuisMeza_CV">CV</a>
-                <i class="icono-arrow1-down"></i>
-              </div>
-              <p>Downdoald</p>
-            </div>
-          </div>
-        </div>
-        <div class="fill"></div>
       </div>
     </section>
   </body>
