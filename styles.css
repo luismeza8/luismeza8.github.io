@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+body {
+  background-image: url(assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact {
+  -webkit-text-stroke: 2px white;
+}
+
+.about-active {
+  color: #e19720;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  font-weight: bold;
+}
+.experience-active {
+  color: #e35339;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  font-weight: bold;
+}
+.projects-active {
+  color: #3b7b32;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  font-weight: bold;
+}
+.contact-active {
+  color: blue;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  font-weight: bold;
+}
+
+.myname {
+  color: yellow;
+  -webkit-text-stroke: 4px blue;
+  font-size: 5rem;
+}
