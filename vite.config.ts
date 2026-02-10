@@ -3,4 +3,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
+  base: "/luismeza9.github.io",
 });
