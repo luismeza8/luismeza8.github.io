@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+  --color-russianViolet: #391b49;
+  --color-darklavander: #795690;
+  --color-amethyst: #9570c6;
+  --color-brightLavander: #c29ce4;
+  --color-ceil: #999ecf;
+}
+
 body {
-  background-image: url(/assets/images/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .contact {
@@ -34,10 +38,4 @@ body {
   font-size: 1.5rem;
   transition: ease 0.5s;
   font-weight: bold;
-}
-
-.myname {
-  color: yellow;
-  -webkit-text-stroke: 4px blue;
-  font-size: 5rem;
 }
