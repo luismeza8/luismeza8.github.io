@@ -6,9 +6,18 @@
   --color-amethyst: #9570c6;
   --color-brightLavander: #c29ce4;
   --color-ceil: #999ecf;
-}
 
-body {
+  --color-aubergine: #26121b;
+  --color-claret: #6b1a34;
+  --color-madderLake: #ce3737;
+  --color-rainBoots: #fb6734;
+  --color-prussianBlue: #1b3854;
+
+  --color-darkDanger: #2d0e0e;
+  --color-allSystemsRed: #b30303;
+  --color-apolloBay: #768596;
+  --color-blueAsh: #404654;
+  --color-festivalOrange: #df6043;
 }
 
 .contact {
