@@ -1,62 +1,100 @@
 @import "tailwindcss";
 
 @theme {
-  --color-russianViolet: #391b49;
-  --color-darklavander: #795690;
-  --color-amethyst: #9570c6;
-  --color-brightLavander: #c29ce4;
-  --color-ceil: #999ecf;
+    --color-darkDanger: #2d0e0e;
+    --color-allSystemsRed: #b30303;
+    --color-apolloBay: #768596;
+    --color-blueAsh: #404654;
+    --color-festivalOrange: #df6043;
 
-  --color-aubergine: #26121b;
-  --color-claret: #6b1a34;
-  --color-madderLake: #ce3737;
-  --color-rainBoots: #fb6734;
-  --color-prussianBlue: #1b3854;
+    --color-redDarkest: #2d0e0e;
+    --color-redDeep: #6b0f0f;
+    --color-redMedium: #8f0808;
+    --color-redBright: #b30303;
 
-  --color-darkDanger: #2d0e0e;
-  --color-allSystemsRed: #b30303;
-  --color-apolloBay: #768596;
-  --color-blueAsh: #404654;
-  --color-festivalOrange: #df6043;
+    --color-text-dark: #1a0505;
+    --color-text-body: #f5e6e6;
+    --color-text-muted: #d4a0a0;
+    --color-text-light: #fff0f0;
+    --color-text-bright: #ffcccc;
+    --color-text-accent: #ff8888;
+}
 
-  --color-crowshead: #161605;
-  --color-olivenite: #2c340b;
-  --color-armyGreen: #48511e;
-  --color-vineyardView: #767445;
-  --color-particleIoniserRed: #cd2c18;
+.about-experience {
+    background: #391b49;
+    background: -webkit-linear-gradient(
+        0deg,
+        rgba(57, 27, 73, 1) 25%,
+        rgba(24, 22, 22, 1) 75%
+    );
+    background: -moz-linear-gradient(
+        0deg,
+        rgba(57, 27, 73, 1) 25%,
+        rgba(24, 22, 22, 1) 75%
+    );
+    background: linear-gradient(
+        0deg,
+        rgba(57, 27, 73, 1) 25%,
+        rgba(24, 22, 22, 1) 75%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#391B49", endColorstr="#181616", GradientType=0);
+}
 
-  --color-rhythm: #766da7;
-  --color-eerie-black: #15191e;
-  --color-camouflage-green: #7a9663;
-  --color-ebony: #556842;
-  --color-laurel-green: #a0ae91;
+.projects-contact {
+    background: #15191e;
+    background: linear-gradient(
+        0deg,
+        rgba(21, 25, 30, 1) 0%,
+        rgba(45, 14, 14, 1) 100%
+    );
+}
+
+.experience-projects {
+    background: #391b49;
+    background: -webkit-linear-gradient(
+        180deg,
+        rgba(57, 27, 73, 1) 0%,
+        rgba(45, 14, 14, 1) 100%
+    );
+    background: -moz-linear-gradient(
+        180deg,
+        rgba(57, 27, 73, 1) 0%,
+        rgba(45, 14, 14, 1) 100%
+    );
+    background: linear-gradient(
+        180deg,
+        rgba(57, 27, 73, 1) 0%,
+        rgba(45, 14, 14, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#391B49", endColorstr="#2D0E0E", GradientType=0);
+}
+
+.dartkDanger-allSystems {
+    background: linear-gradient(to bottom, #2d0e0e, #6b0f0f, #8f0808, #b30303);
+}
+
+.dartkDanger-redDeep {
+    background: #2d0e0e;
+    background: linear-gradient(
+        0deg,
+        rgba(45, 14, 14, 1) 0%,
+        rgba(107, 15, 15, 1) 100%
+    );
 }
 
 .contact {
-  -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px white;
 }
 
-.about-active {
-  color: #e19720;
-  font-size: 1.5rem;
-  transition: ease 0.5s;
-  font-weight: bold;
+.active-section {
+    color: #ffcccc;
+    font-size: 1.2rem;
+    transition: ease 0.5s;
+    font-weight: bold;
 }
-.experience-active {
-  color: #e35339;
-  font-size: 1.5rem;
-  transition: ease 0.5s;
-  font-weight: bold;
-}
-.projects-active {
-  color: #3b7b32;
-  font-size: 1.5rem;
-  transition: ease 0.5s;
-  font-weight: bold;
-}
-.contact-active {
-  color: blue;
-  font-size: 1.5rem;
-  transition: ease 0.5s;
-  font-weight: bold;
+
+.playwrite-gb-j {
+    font-family: "Playwrite GB J", cursive;
+    font-optical-sizing: auto;
+    font-style: italic;
 }

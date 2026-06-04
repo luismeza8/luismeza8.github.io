@@ -1,402 +1,409 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luis Meza</title>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script defer type="module" src="src/main.js"></script>
-  </head>
-  <body class="bg-[#181616] text-white lg:flex">
-    <div
-      class="h-dvh flex flex-col justify-center items-center lg:w-2/5 lg:z-10 lg:fixed lg:top-0"
-    >
-      <h2 class="text-5xl font-bold myname">Luis Meza</h2>
-      <h1 class="text-lg text-neutral-500">Fullstack Developer</h1>
-
-      <div
-        class="w-full h-1/3 mt-16 text-lg text-neutral-400 flex flex-col justify-around items-center"
-      >
-        <a href="#about" id="about-link" class="">About me</a>
-        <a href="#experience" id="experience-link" class="">Experience</a>
-        <a href="#projects" id="projects-link" class="">Projects</a>
-        <a href="#contact" id="contact-link" class="">Contact</a>
-      </div>
-    </div>
-
-    <div class="lg:h-dvh lg:w-2/5"></div>
-    <section id="content" class="lg:w-3/5">
-      <div id="about" class="h-dvh px-8 flex flex-col justify-center lg:w-7/8">
-        <h3 class="text-5xl font-bold text-[#E19720]">About me</h3>
-        <p class="p-6 bg-[#FAD61D] text-[#811E09] mt-8 rounded-xl">
-          I’m a fullstack web developer with 5 years for experience coding. I
-          have a Bachelor's Degree in Software Engineering.
-          <br />
-          In my free time, I’m usually listening to music, running, reading or
-          just spending time with my cats.
-        </p>
-      </div>
-
-      <div
-        id="experience"
-        class="min-h-dvh px-8 flex flex-col justify-center bg-russianViolet relative -z-20"
-      >
-        <h3 class="text-5xl mb-8 font-bold text-amethyst">Work Experience</h3>
-        <div class="flex flex-col gap-16 xl:w-7/8 xl:text-justify">
-          <div class="bg-russianViolet relative p-4">
-            <div
-              class="absolute h-full w-full right-4 bottom-2 -z-10 bg-amethyst rounded-xl"
-            ></div>
-            <div
-              class="absolute h-full w-full left-2 top-4 -z-10 bg-ceil rounded-2xl"
-            ></div>
-            <h4 class="text-xl text-ceil font-semibold">BAE SYSTEMS</h4>
-            <p class="text-ceil opacity-80">
-              Fullstack Developer • 2024 - 2025
-            </p>
-            <ul
-              class="text-brightLavander opacity-80 p-2 flex flex-col gap-2 lg:leading-7"
-            >
-              <li>
-                - Develop a web platform to record the time of each process in
-                the assembly of aircraft parts and generate reports, reducing
-                administration time by 40%.
-              </li>
-              <li>
-                - Worked in a team developing and implementing a ticketing
-                system fof the plant. This implementation reduced machine down
-                time by 34%.
-              </li>
-            </ul>
-          </div>
-
-          <div class="bg-russianViolet relative p-4">
-            <div
-              class="absolute h-full w-full left-3 top-4 -z-10 bg-brightLavander rounded-xl"
-            ></div>
-            <div
-              class="absolute h-full w-full right-3 bottom-2 -z-10 bg-ceil rounded-2xl"
-            ></div>
-            <h4 class="text-xl text-ceil font-semibold">Horus Space Lab</h4>
-            <p class="text-ceil opacity-80">
-              Fullstack Developer • 2023 - 2024
-            </p>
-            <ul
-              class="text-brightLavander opacity-80 p-2 flex flex-col gap-2 lg:leading-7"
-            >
-              <li>
-                - Engineered the onboard computer and telecommunication system
-                for a satellite, winning eighth place amoung 120+ teams in the
-                Ibero-American Can-Sat Competition 2023.
-              </li>
-              <li>
-                - Built a check in/check out system, which consistes of a
-                dashboard, a QR scanner (a ESP32Cam and an LCD screen) with
-                Wi-Fi, and an API that connects both, reducing meeting delays by
-                30%.
-              </li>
-            </ul>
-          </div>
-
-          <div class="bg-russianViolet relative p-4">
-            <div
-              class="absolute h-full w-full right-4 top-3 -z-10 bg-ceil rounded-xl"
-            ></div>
-            <div
-              class="absolute h-full w-full left-2 bottom-3 -z-10 bg-amethyst rounded-2xl"
-            ></div>
-            <h4 class="text-xl text-ceil font-semibold">MIGALA</h4>
-            <p class="text-ceil opacity-80">Mobile Developer • 2021 - 2023</p>
-            <ul
-              class="text-brightLavander opacity-80 p-2 flex flex-col gap-2 lg:leading-7"
-            >
-              <li>
-                - Collaborated with a remote team to develop a cross-platform
-                mobile app, enabling internal voting for cooperative
-                organizations, and adopted by a local non-profit.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="w-full h-[30dvh]"></div>
-
-      <div
-        id="projects"
-        class="min-h-dvh flex flex-col px-8 justify-center bg-darkDanger"
-      >
-        <h3 class="text-5xl font-bold mb-8 text-festivalOrange">Projects</h3>
-
-        <div class="flex flex-col gap-12 xl:w-7/8">
-          <div class="flex p-6 bg-allSystemsRed rounded-xl">
-            <img
-              src="assets/images/assembly_time_platform.jpeg"
-              alt="realtime_dashboard"
-              width="400px"
-              class="rounded-xl border-3 border-darkDanger shadow-lg"
-            />
-            <div class="ml-4 mt-2 flex flex-col max-w-1/2">
-              <h3 class="text-2xl font-bold text-darkDanger">
-                ASSEMBLY TIME PLATFORM
-              </h3>
-              <p class="text-md text-darkDanger mb-4">
-                I made this platform while on BAE SYSTEMS, this is the platform
-                the saved the company up to 40% in administration time.
-              </p>
-              <div
-                class="text-sm text-blueAsh flex justify-evenly gap-2 flex-wrap"
-              >
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  Django
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  HTMX
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  HTML
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  CSS
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl text-nowrap"
-                >
-                  SQL Server
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex p-6 bg-allSystemsRed rounded-xl">
-            <img
-              src="assets/images/realtime_dashboard.png"
-              alt="realtime_dashboard"
-              width="400px"
-              class="rounded-xl border-3 border-darkDanger shadow-lg"
-            />
-            <div class="ml-4 mt-2 flex flex-col max-w-1/2">
-              <h3 class="text-2xl font-bold text-darkDanger">
-                Real time dashboard
-              </h3>
-              <p class="text-md text-darkDanger mb-4">
-                Dashboard that shows all the information received from a
-                satellite.
-              </p>
-              <div
-                class="text-sm text-blueAsh flex justify-evenly gap-2 flex-wrap"
-              >
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  Django
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  DRF
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  HTML
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  Tailwind
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  MySQL
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex p-6 bg-allSystemsRed rounded-xl">
-            <img
-              src="assets/images/checking_home.png"
-              alt="checking system"
-              width="400px"
-              class="rounded-xl border-3 border-darkDanger shadow-lg"
-            />
-            <div class="ml-4 mt-2 flex flex-col max-w-1/2">
-              <h3 class="text-2xl font-bold text-darkDanger">
-                Assistance system
-              </h3>
-              <p class="text-md text-darkDanger mb-4">
-                Dashboard for visualization of all of the members in the
-                organization and their assistance analytics.
-              </p>
-              <div
-                class="text-sm text-blueAsh flex justify-evenly gap-2 flex-wrap"
-              >
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  Django
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  DRF
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  HTMX
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  HTML
-                </div>
-                <div
-                  class="px-3 py-2 bg-festivalOrange shadow-md shadow-darkDanger rounded-3xl"
-                >
-                  Tailwind
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="w-full h-[30dvh]"></div>
-
-      <div
-        id="contact"
-        class="min-h-dvh px-6 bg-eerie-black flex flex-col justify-center"
-      >
-        <h3 class="text-5xl font-bold mb-12 text-rhythm">Contact me</h3>
-        <div
-          class="flex flex-col lg:flex-row gap-8 flex-wrap justify-center lg:w-7/8"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Luis Meza</title>
+        <link rel="stylesheet" href="src/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap"
+            rel="stylesheet"
+        />
+        <script defer type="module" src="src/main.js"></script>
+    </head>
+    <body class="bg-darkDanger">
+        <nav
+            class="bg-darkDanger shadow text-text-bright shadow-black flex justify-around items-center w-full h-12 sm:h-16 fixed z-10"
         >
-          <div
-            class="flex items-center gap-4 bg-laurel-green p-4 rounded-xl lg:w-[30%]"
-          >
-            <img
-              src="assets/logos/github-mark.svg"
-              alt="github"
-              width="50px"
-              class="bg-rhythm rounded-lg p-1 shadow-md"
-            />
-            <div>
-              <a
-                class="font-extrabold text-2xl text-crowshead leading-0"
-                href="https://github.com/luismeza8"
-                target="_blank"
-                >Github</a
-              >
-              <p class="text-ebony font-bold text-sm leading-2.5">@luismeza8</p>
-            </div>
-          </div>
+            <a
+                href="#about"
+                id="about-link"
+                class="text-xs sm:text-sm md:text-base"
+                >About me</a
+            >
+            <a
+                href="#experience"
+                id="experience-link"
+                class="text-xs sm:text-sm md:text-base"
+                >Experience</a
+            >
+            <a
+                href="#projects"
+                id="projects-link"
+                class="text-xs sm:text-sm md:text-base"
+                >Projects</a
+            >
+            <a
+                href="#contact"
+                id="contact-link"
+                class="text-xs sm:text-sm md:text-base"
+                >Contact</a
+            >
+        </nav>
 
-          <div
-            class="flex items-center gap-4 bg-laurel-green p-4 rounded-xl lg:w-[30%]"
-          >
-            <img
-              src="assets/logos/linkedin.svg"
-              alt="linkedin"
-              width="50px"
-              class="bg-rhythm rounded-lg p-1 shadow-md"
-            />
-            <div>
-              <a
-                class="font-extrabold text-2xl text-crowshead leading-0"
-                href="https://www.linkedin.com/in/luis-meza-dev/"
-                target="_blank"
-                >Linkedin</a
-              >
-              <p class="text-ebony font-bold text-sm leading-2.5">
-                @luis-meza-dev
-              </p>
+        <section
+            id="about"
+            class="min-h-dvh w-full flex flex-col lg:flex-row lg:justify-evenly justify-center items-center px-4 sm:px-8 pt-16 gap-8"
+        >
+            <div
+                class="w-full lg:w-1/3 flex flex-col justify-center items-center"
+            >
+                <h2
+                    class="text-5xl sm:text-7xl md:text-[96px] lg:text-[120px] leading-tight sm:leading-[1.1] text-shadow-lg text-shadow-festivalOrange italic text-allSystemsRed font-bold text-center wrap-break-words"
+                >
+                    Luis Meza
+                </h2>
+                <h1
+                    class="text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 playwrite-gb-j text-festivalOrange text-center"
+                >
+                    Fullstack Web Developer
+                </h1>
             </div>
-          </div>
+            <div
+                class="w-full sm:max-w-lg lg:max-w-md xl:max-w-1/3 text-center bg-redDeep p-4 sm:p-6 rotate-0 sm:-rotate-2"
+            >
+                <h3
+                    class="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 rotate-0 sm:rotate-2 text-text-muted"
+                >
+                    About me
+                </h3>
+                <p
+                    class="text-sm sm:text-base text-text-body rotate-0 sm:rotate-2"
+                >
+                    I’m a fullstack web developer with 5 years of experience
+                    coding. I have a Bachelor's Degree in Software Engineering.
+                    <br />
+                    In my free time, I’m usually listening to music, running,
+                    reading or just spending time with my cats.
+                </p>
+            </div>
+        </section>
 
-          <div
-            class="flex items-center gap-4 bg-laurel-green p-4 rounded-xl lg:w-[30%]"
-          >
-            <img
-              src="assets/logos/twitter.svg"
-              alt="twitter"
-              width="50"
-              class="bg-rhythm rounded-lg p-1 shadow-md"
-            />
-            <div>
-              <a
-                class="font-extrabold text-2xl text-crowshead leading-0"
-                href="https://x.com/luis_mz8"
-                target="_blank"
-                >Twitter</a
-              >
-              <p class="text-ebony font-bold text-sm leading-2.5">@luis_mz8</p>
-            </div>
-          </div>
+        <div class="dartkDanger-allSystems w-full h-12 sm:h-20"></div>
 
-          <div
-            class="flex items-center gap-4 bg-laurel-green p-4 rounded-xl lg:w-[30%]"
-          >
-            <img
-              src="assets/logos/email.svg"
-              alt="email"
-              width="50px"
-              class="bg-rhythm rounded-lg p-1 shadow-md"
-            />
-            <div>
-              <a
-                class="font-extrabold text-2xl text-crowshead leading-0"
-                href="mailto:angel841bv@gmail.com"
-                target="_blank"
-                >Email</a
-              >
-              <p class="text-ebony font-bold text-sm leading-2.5">
-                angel841bv@gmail.com
-              </p>
-            </div>
-          </div>
+        <section
+            id="experience"
+            class="min-h-dvh px-4 sm:px-8 py-12 flex flex-col justify-center items-center bg-allSystemsRed relative -z-20"
+        >
+            <h3
+                class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl my-8 sm:my-12 playwrite-gb-j font-extrabold italic text-shadow-md text-shadow-text-accent text-center"
+            >
+                Work Experience
+            </h3>
+            <div
+                class="flex flex-col gap-8 sm:gap-12 md:gap-16 w-full max-w-4xl"
+            >
+                <div class="relative bg-redMedium p-3 sm:p-4">
+                    <div
+                        class="absolute h-full w-full right-2 sm:right-4 bottom-1 sm:bottom-2 -z-10 bg-redDarkest rounded-xl"
+                    ></div>
+                    <div
+                        class="absolute h-full w-full left-1 sm:left-2 top-2 sm:top-4 -z-10 bg-redDeep rounded-2xl"
+                    ></div>
+                    <h4
+                        class="text-xl sm:text-2xl md:text-3xl text-text-accent font-extrabold"
+                    >
+                        BAE SYSTEMS, Inc. ~ Intership
+                    </h4>
+                    <p
+                        class="text-sm sm:text-base font-bold text-apolloBay opacity-90"
+                    >
+                        Fullstack Developer • 2024 - 2025
+                    </p>
+                    <ul
+                        class="text-text-body p-2 flex flex-col gap-2 text-sm sm:text-base sm:leading-7"
+                    >
+                        <li>
+                            - Develop a web platform to record the time of each
+                            process in the assembly of aircraft parts and
+                            generate reports, reducing administration time by
+                            40%.
+                        </li>
+                        <li>
+                            - Worked in a team developing and implementing a
+                            ticketing system for the plant. This implementation
+                            reduced machine down time by 34%.
+                        </li>
+                    </ul>
+                </div>
 
-          <div
-            class="flex items-center gap-4 bg-laurel-green p-4 rounded-xl lg:w-[30%]"
-          >
-            <img
-              src="assets/logos/cv.svg"
-              alt="email"
-              width="50px"
-              class="bg-rhythm rounded-lg p-1 shadow-md"
-            />
-            <div>
-              <a
-                class="font-extrabold text-2xl text-crowshead leading-0"
-                href="assets/LuisMeza_CV5.pdf"
-                download="LuisMeza_CV"
-                >CV</a
-              >
-              <p class="text-ebony font-bold text-sm leading-2.5">Download</p>
+                <div class="bg-redMedium relative p-3 sm:p-4">
+                    <div
+                        class="absolute h-full w-full left-2 sm:left-3 top-2 sm:top-4 -z-10 bg-redDarkest rounded-xl"
+                    ></div>
+                    <div
+                        class="absolute h-full w-full right-2 sm:right-3 bottom-1 sm:bottom-2 -z-10 bg-redDeep rounded-2xl"
+                    ></div>
+                    <h4
+                        class="text-xl sm:text-2xl md:text-3xl text-text-accent font-extrabold"
+                    >
+                        Horus Space Lab ~ Univerisity Program
+                    </h4>
+                    <p
+                        class="text-sm sm:text-base text-apolloBay font-bold opacity-90"
+                    >
+                        Fullstack & Embedded Developer • 2023 - 2024
+                    </p>
+                    <ul
+                        class="text-text-body p-2 flex flex-col gap-2 text-sm sm:text-base sm:leading-7"
+                    >
+                        <li>
+                            - Engineered the onboard computer and
+                            telecommunication system for a satellite, winning
+                            eighth place among 120+ teams in the Ibero-American
+                            Can-Sat Competition 2023.
+                        </li>
+                        <li>
+                            - Built a check in/check out system, which consists
+                            of a dashboard, a QR scanner (a ESP32Cam and an LCD
+                            screen) with Wi-Fi, and an API that connects both,
+                            reducing meeting delays by 30%.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-redMedium relative p-3 sm:p-4">
+                    <div
+                        class="absolute h-full w-full right-2 sm:right-4 top-2 sm:top-3 -z-10 bg-redDeep rounded-xl"
+                    ></div>
+                    <div
+                        class="absolute h-full w-full left-1 sm:left-2 bottom-2 sm:bottom-3 -z-10 bg-redDarkest rounded-2xl"
+                    ></div>
+                    <h4
+                        class="text-xl sm:text-2xl md:text-3xl text-text-accent font-extrabold"
+                    >
+                        MIGALA ~ Nonprofit Local Project
+                    </h4>
+                    <p
+                        class="text-sm sm:text-base text-apolloBay font-bold opacity-90"
+                    >
+                        Mobile Developer • 2021 - 2023
+                    </p>
+                    <ul
+                        class="text-text-body p-2 flex flex-col gap-2 text-sm sm:text-base sm:leading-7"
+                    >
+                        <li>
+                            - Collaborated with a remote team to develop a
+                            cross-platform mobile app, enabling internal voting
+                            for cooperative organizations, and adopted by a
+                            local non-profit.
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
+        </section>
+
+        <div
+            class="dartkDanger-allSystems rotate-180 w-full h-12 sm:h-20"
+        ></div>
+
+        <section
+            id="projects"
+            class="min-h-[80dvh] flex flex-col items-center justify-evenly bg-darkDanger px-4 py-12"
+        >
+            <h3
+                class="text-5xl sm:text-6xl md:text-7xl lg:text-[86px] playwrite-gb-j font-bold mb-6 sm:mb-8 text-festivalOrange text-center wrap-break-word"
+            >
+                Projects
+            </h3>
+            <div
+                class="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 w-full max-w-5xl"
+            >
+                <div
+                    class="w-full sm:max-w-md lg:max-w-1/2 p-3 sm:p-4 gap-2 flex flex-col items-center bg-allSystemsRed rounded-xl"
+                >
+                    <img
+                        src="assets/images/assembly_time_platform.jpeg"
+                        alt="realtime_dashboard"
+                        width="600px"
+                        class="rounded-xl border-3 border-darkDanger shadow-lg w-full"
+                    />
+                    <div class="flex flex-col items-center">
+                        <h3
+                            class="text-lg sm:text-xl md:text-2xl font-bold text-darkDanger text-center"
+                        >
+                            ASSEMBLY TIME PLATFORM
+                        </h3>
+                        <p
+                            class="text-xs sm:text-sm text-darkDanger text-center"
+                        >
+                            I made this platform while on BAE SYSTEMS, this is
+                            the platform that saved the company up to 40% in
+                            administration time.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="w-full sm:max-w-md lg:max-w-1/2 p-3 sm:p-4 gap-2 flex flex-col items-center bg-allSystemsRed rounded-xl"
+                >
+                    <img
+                        src="assets/images/checking_home.png"
+                        alt="checking system"
+                        width="600px"
+                        class="rounded-xl border-3 border-darkDanger shadow-lg w-full"
+                    />
+                    <div class="flex flex-col items-center">
+                        <h3
+                            class="text-lg sm:text-xl md:text-2xl font-bold text-darkDanger text-center"
+                        >
+                            Assistance system
+                        </h3>
+                        <p
+                            class="text-xs sm:text-sm text-darkDanger text-center"
+                        >
+                            Dashboard for visualization of all of the members in
+                            the organization and their assistance analytics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="dartkDanger-redDeep rotate-180 w-full h-12 sm:h-20"></div>
+
+        <section
+            id="contact"
+            class="px-4 sm:px-6 py-12 sm:py-16 bg-redDeep flex flex-col items-center justify-center"
+        >
+            <h3
+                class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-shadow-md text-shadow-allSystemsRed font-bold my-8 sm:my-12 text-text-dark playwrite-gb-j text-center"
+            >
+                Contact me
+            </h3>
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 w-full max-w-4xl place-items-center"
+            >
+                <div
+                    class="flex bg-redMedium items-center gap-3 sm:gap-4 shadow-xl p-3 sm:p-4 rounded-xl w-full max-w-xs hover:scale-105 transition"
+                >
+                    <img
+                        src="assets/logos/github-mark.svg"
+                        alt="github"
+                        width="50px"
+                        class="rounded-lg p-1 shadow-md bg-redBright w-10 sm:w-12"
+                    />
+                    <div>
+                        <a
+                            class="font-extrabold text-lg sm:text-xl md:text-2xl text-text-dark leading-0 hover:underline"
+                            href="https://github.com/luismeza8"
+                            target="_blank"
+                            >Github</a
+                        >
+                        <p
+                            class="text-apolloBay opacity-75 font-bold text-xs sm:text-sm leading-2.5"
+                        >
+                            @luismeza8
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex bg-redMedium items-center gap-3 sm:gap-4 shadow-xl p-3 sm:p-4 rounded-xl w-full max-w-xs hover:scale-105 transition"
+                >
+                    <img
+                        src="assets/logos/linkedin.svg"
+                        alt="linkedin"
+                        width="50px"
+                        class="rounded-lg p-1 shadow-md bg-redBright w-10 sm:w-12"
+                    />
+                    <div>
+                        <a
+                            class="font-extrabold text-lg sm:text-xl md:text-2xl text-text-dark leading-0 hover:underline"
+                            href="https://www.linkedin.com/in/luis-meza-dev/"
+                            target="_blank"
+                            >Linkedin</a
+                        >
+                        <p
+                            class="text-apolloBay opacity-75 font-bold text-xs sm:text-sm leading-2.5"
+                        >
+                            @luis-meza-dev
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex bg-redMedium items-center gap-3 sm:gap-4 shadow-xl p-3 sm:p-4 rounded-xl w-full max-w-xs hover:scale-105 transition"
+                >
+                    <img
+                        src="assets/logos/twitter.svg"
+                        alt="twitter"
+                        width="50"
+                        class="rounded-lg p-1 shadow-md bg-redBright w-10 sm:w-12"
+                    />
+                    <div>
+                        <a
+                            class="font-extrabold text-lg sm:text-xl md:text-2xl text-text-dark leading-0 hover:underline"
+                            href="https://x.com/luis_mz8"
+                            target="_blank"
+                            >Twitter</a
+                        >
+                        <p
+                            class="text-apolloBay opacity-75 font-bold text-xs sm:text-sm leading-2.5"
+                        >
+                            @luis_mz8
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex bg-redMedium items-center gap-3 sm:gap-4 shadow-xl p-3 sm:p-4 rounded-xl w-full max-w-xs hover:scale-105 transition"
+                >
+                    <img
+                        src="assets/logos/email.svg"
+                        alt="email"
+                        width="50px"
+                        class="rounded-lg p-1 shadow-md bg-redBright w-10 sm:w-12"
+                    />
+                    <div>
+                        <a
+                            class="font-extrabold text-lg sm:text-xl md:text-2xl text-crowshead leading-0 hover:underline"
+                            href="mailto:angel841bv@gmail.com"
+                            target="_blank"
+                            >Email</a
+                        >
+                        <p
+                            class="text-apolloBay opacity-75 font-bold text-xs sm:text-sm leading-2.5"
+                        >
+                            angel841bv@gmail.com
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex bg-redMedium items-center gap-3 sm:gap-4 shadow-xl p-3 sm:p-4 rounded-xl w-full max-w-xs hover:scale-105 transition"
+                >
+                    <img
+                        src="assets/logos/cv.svg"
+                        alt="email"
+                        width="50px"
+                        class="rounded-lg p-2 shadow-md bg-redBright w-10 sm:w-12"
+                    />
+                    <div>
+                        <a
+                            class="font-extrabold text-lg sm:text-xl md:text-2xl text-crowshead leading-0 hover:underline"
+                            href="assets/LuisMeza_CV5.pdf"
+                            download="LuisMeza_CV"
+                            >CV</a
+                        >
+                        <p
+                            class="text-apolloBay opacity-75 font-bold text-xs sm:text-sm leading-2.5"
+                        >
+                            Download
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

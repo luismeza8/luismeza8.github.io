@@ -7,27 +7,21 @@ function changeColorSection(section) {
   };
 
   Object.values(links).forEach((link) =>
-    link.classList.remove(
-      "about-active",
-      "experience-active",
-      "projects-active",
-      "contact-active",
-    ),
+    link.classList.remove("active-section"),
   );
 
-  links[section.id]?.classList.add(`${section.id}-active`);
+  links[section.id]?.classList.add("active-section");
 }
 
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log(entry.target);
         changeColorSection(entry.target);
       }
     });
   },
-  { threshold: 0.3 },
+  { threshold: 0.4 },
 );
 
 ["about", "experience", "projects", "contact"].forEach((id) => {
